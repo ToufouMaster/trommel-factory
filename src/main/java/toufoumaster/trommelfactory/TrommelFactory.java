@@ -11,7 +11,7 @@ public class TrommelFactory implements ModInitializer, GameStartEntrypoint {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {
-        LOGGER.info("ExampleMod initialized.");
+        LOGGER.info("TrommelFactory initialized.");
     }
 
 	@Override
