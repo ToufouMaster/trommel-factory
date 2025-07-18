@@ -120,6 +120,20 @@ public class Recipes implements RecipeEntrypoint {
 		}
 		dirtBuilder.addEntry(new WeightedRandomLootObject(AMMO_PEBBLE.getDefaultStack(), 0), seedAmount);
 		dirtBuilder.create("dirt_to_seed");
+
+
+		RecipeBuilder.Trommel(MOD_ID)
+			.setInput(SAND.getDefaultStack())
+			.addEntry(new WeightedRandomLootObject(CLAY.getDefaultStack(), 1), 1)
+			.create("sand_to_clay");
+
+
+		RecipeBuilder.Trommel(MOD_ID)
+			.setInput(SAND.getDefaultStack())
+			.addEntry(new WeightedRandomLootObject(BONE.getDefaultStack(), 0, 2), 1)
+			.addEntry(new WeightedRandomLootObject(new ItemStack(AMMO_PEBBLE, 1), 0), 9)
+			.create("sand_to_bone");
+
 	}
 
 	@Override
