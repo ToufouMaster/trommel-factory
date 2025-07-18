@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "trommelfactory",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Trommel Factory",
+  "description": "Adds new ressources to cruch and automate ore production.",
   "authors": [
-    "Turnip Labs"
+    "ToufouMaster"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,27 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"toufoumaster.trommelfactory.TrommelFactory"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"toufoumaster.trommelfactory.TrommelFactory"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"toufoumaster.trommelfactory.TrommelFactory"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"toufoumaster.trommelfactory.Recipes"
+		],
+		"afterBlockInit": [
+			"toufoumaster.trommelfactory.Blocks"
+		],
+		"initModels": [
+			"toufoumaster.trommelfactory.Models"
 		]
 	},
+	"accessWidener" : "trommelfactory.accesswidener",
   "mixins": [
-      "examplemod.mixins.json"
+		"trommelfactory.mixins.json"
   ],
 
   "depends": {

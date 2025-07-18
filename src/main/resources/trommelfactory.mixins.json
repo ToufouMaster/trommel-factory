@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "toufoumaster.trommelfactory.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockLogicCobbleInterface",
+    "TileEntityTrommelInterface",
+    "TileEntityTrommelMixin"
+  ],
+  "client": [
+    "GuidebookPageInterface",
+    "RecipePageInterface",
+    "RecipePageTrommelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

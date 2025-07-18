@@ -1,0 +1,20 @@
+tile.trommelfactory.flint_clay_mixture.name=Flint and Clay Mixture
+tile.trommelfactory.flint_clay_mixture.desc=A mixture of clay and a little something else
+tile.trommelfactory.olivine_clay_mixture.name=Olivine and Clay Mixture
+tile.trommelfactory.olivine_clay_mixture.desc=A mixture of clay and a little something else
+tile.trommelfactory.quartz_clay_mixture.name=Quartz and Clay Mixture
+tile.trommelfactory.quartz_clay_mixture.desc=A mixture of clay and a little something else
+
+tile.trommelfactory.flint_sand_mixture.name=Flint and Sand Mixture
+tile.trommelfactory.flint_sand_mixture.desc=A mixture of sand and a little something else
+tile.trommelfactory.olivine_sand_mixture.name=Olivine and Sand Mixture
+tile.trommelfactory.olivine_sand_mixture.desc=A mixture of sand and a little something else
+tile.trommelfactory.quartz_sand_mixture.name=Quartz and Sand Mixture
+tile.trommelfactory.quartz_sand_mixture.desc=A mixture of sand and a little something else
+
+tile.trommelfactory.basalt_gravel.name=Basalt Gravel
+tile.trommelfactory.basalt_gravel.desc=A loose collection of pebbles.
+tile.trommelfactory.limestone_gravel.name=Limestone Gravel
+tile.trommelfactory.limestone_gravel.desc=A loose collection of pebbles.
+tile.trommelfactory.granite_gravel.name=Granite Gravel
+tile.trommelfactory.granite_gravel.desc=A loose collection of pebbles.
